@@ -19,8 +19,8 @@ int main() {
   if (child1 < 0 || child2 < 0) {
     perror("did not fork");
   }
-  else if (child1 == 0) {
-
+  else if (child1 == 0 || child2 == 0) {
+	  
   }
   else {
 
